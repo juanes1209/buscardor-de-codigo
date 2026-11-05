@@ -16,19 +16,19 @@ public class Maintaskcollector {
     /**Maintaskcollector
      * @param args the command line arguments
      */
-    
+
     public static void main(String[] args) {
         // TODO code application logic here
-        
+
         //VARIABLES
         String opciones=" ";//variable del switch.
-        
+
         //OBJETOS
-        
-        
+
+
         //METODOS de VISUALIZACION
         /*
-        me
+        menu del devsearch
         System.out.println("menu de opciones del taskcoletor \n "
         );
         System.out.println("buscar");
@@ -37,7 +37,7 @@ public class Maintaskcollector {
         System.out.println("categorias");
         System.out.println("conectar");
         */
-        
+
         switch(opciones){
             case "opcion1":
                 System.out.println("submenu opc 1");
@@ -47,25 +47,27 @@ public class Maintaskcollector {
                 break;
             case "opcion3":
                 System.out.println("submenu opc 3");
-                break;    
+                break;
             case "opcion4":
                 System.out.println("submenu opc 4");
-                break;    
+                break;
             case "opcion5":
                 System.out.println("submenu opc 5");
-                break;    
+                break;
             default:
                 System.out.println("opcion no valida, seleccione una existente");
                 break;
-           
+
         }
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
     }
-    
+
 }
